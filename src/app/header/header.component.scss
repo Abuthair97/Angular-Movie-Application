@@ -1,0 +1,21 @@
+.header-container{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(83, 233, 50);
+    display: flex;
+    justify-content:space-between ;
+    .logo{
+        font-size: 26px;
+        font-weight: bold;
+        padding-left: 20px;
+        cursor: pointer;
+        padding-top: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .logout{
+        cursor: pointer;
+        padding-top: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+}

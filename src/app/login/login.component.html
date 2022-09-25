@@ -1,0 +1,24 @@
+<!-- <p>login works!</p> -->
+
+<div class="login-container">
+    <div class="logo">Abuthair</div>
+    <div class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem explicabo nobis repellendus nisi laudantium unde asperiores quaerat odit. Dignissimos nobis dicta consequuntur ipsam ullam exercitationem, error enim magnam sed. Asperiores.
+
+
+    </div>
+    <div class="login-form">
+        <div class="formgroup">
+            <label for="uname">UserName</label>
+            <input type="text" name="uname" id="userName" class="form-control" [(ngModel)]="username">
+        </div>
+        <div class="formgroup">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" id="password" class="form-control" [(ngModel)]="password">
+        </div>
+        <div class="btn-container">
+            <div class="error">{{err}}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+    </div>
+
+</div>
